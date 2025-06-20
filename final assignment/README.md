@@ -48,10 +48,21 @@ For this project, it is important to install the packages in 'reguirements.txt' 
 │   └── optimization_Scenario 608_run3.tar.gz
 
 
+# How to Run
+Install dependencies listed in `requirements.txt`:
+```bash
+pip install -r requirements.txt
+```
+Then run a script (e.g., optimization):
+```bash
+python scripts/dike_model_optimization.py
+```
+Or use the `notebooks/` interactively in Jupyter.
 
+## Citations
+This work builds on:
+- Ciullo, A. (2020). *A system-based approach to flood risk governance.*
+- Eker, S. & Kwakkel, J.H. (2018). *Robustness in MORDM.*
+- Kasprzyk, J.R. et al. (2013). *Many-objective robust decision making.*
+- Kwakkel, J.H. (2017). *EMA Workbench documentation.*
 
-## How to Use the Code
-
-In principle, you only need to run the notebook MORDM Clean.ipynb. This notebook calls all the necessary functions and scripts internally, so no separate preprocessing or postprocessing steps are required.
-
-All data preparation, simulation runs, and result processing are handled from within this single notebook.
