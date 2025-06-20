@@ -1,19 +1,33 @@
-# README File EPA133a - Assignment 3
+# README File EPA141
 
-Created by: EPA133a Group 9
+Created by: EPA141 Group 21
 
 |        Name         | Student Number |
 |:-------------------:|:---------------|
-|  Amaryllis Brosens  | 5307554        |
-| Madelon van Haften  | 5163110        |
-| Daan van der Hoeven | 5066271        |
-|  Quinty Okhuijsen   | 5628060        |
-|   Nynke Steinmetz   | 5186455        |
+|  Milan Sonneveld    |    5624770     |
+| Madelon van Haften  |    5163110     |
+| Daan van der Hoeven |    5066271     |
+|  Batuhan Tazegül    |    5264235     |
 
-## Project description
-This project focuses on automatically generating a Mesa-based simulation model to study the impact of bridge maintenance and unavailability on traffic throughput along the N1 and N2 highway and their sideroads longer than 25km in Bangladesh. The primary objective is to analyze how different bridge failure probabilities affect truck travel times and delays.
 
-Delays and travel time will be measured by sending trucks from randomly chosen starts of roads every 5 minutes with a "business as usual" model and 8 scenarios. 
+# Multi-Scenario MORDM for Flood Risk Governance in Deventer
+
+[![Build Status](https://github.com/quaquel/EMAworkbench/actions/workflows/ci.yml/badge.svg?master)](https://github.com/quaquel/EMAworkbench/actions)
+[![Coverage Status](https://coveralls.io/repos/github/quaquel/EMAworkbench/badge.svg?branch=master)](https://coveralls.io/github/quaquel/EMAworkbench?branch=master)
+[![Documentation Status](https://readthedocs.org/projects/emaworkbench/badge/?version=latest)](http://emaworkbench.readthedocs.org/en/latest/?badge=master)
+[![PyPi](https://img.shields.io/pypi/v/ema_workbench.svg)](https://pypi.python.org/pypi/ema_workbench)
+[![PyPi](https://img.shields.io/pypi/dm/ema_workbench.svg)](https://pypi.python.org/pypi/ema_workbench)
+
+This repository contains the implementation of a Multi-Scenario Many-Objective Robust Decision Making (MORDM) approach for designing robust flood risk strategies under deep uncertainty. The focus case is the Deventer region, located in the IJssel basin, the Netherlands.
+
+## Overview
+This study applies exploratory modeling and robustness techniques using the EMA Workbench. Key features:
+- Generation of 10,000 uncertainty scenarios using Latin Hypercube Sampling
+- Diversity-based selection of representative scenarios
+- Multi-objective optimization with NSGA-II or Borg across multiple scenarios
+- Robustness analysis (acceptability, signal-to-noise, regret)
+- Vulnerability analysis using PRIM and Sobol’ sensitivity indices
+
 
 ## Installation and setup
 For this project, it is important to install the packages in 'reguirements.txt' and ensure they are up to date
